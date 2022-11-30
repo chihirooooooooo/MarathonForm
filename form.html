@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marathon Form</title>
+</head>
+
+<body>
+  <h1>Form</h1>
+  <form action="">
+    <div>
+      <label for = "first_name">First Name</label>
+      <input type = text id = "first_name" name = "first_name" required>
+      <label>Last Name</label>
+      <input type = text id = "last_name" name = "last_name" required>
+    </div>
+    <div>
+      <p>Choose which marathon you will participate in:</p>
+      <p>
+        <input type = "radio" id = "beginner" name="levels" value = "beginner">
+        <label for="beginner">Beginner Course</label><br>
+        <input type = "radio" id = "intermediate" name = "levels" value = "intermediate">
+        <label for="intermediate">Intermediate Course</label><br>
+        <input type = "radio" id = "expert" name = "levels" value = "expert">
+        <label for = "expert">Expert Course</label>
+      </p>
+    </div>
+    <p>
+      <div>
+        <label for = "E-mail">E-mail</label>
+        <input type = email id = "email" name = "email" required> 
+        <label for = "password">Password</label>
+        <input type = password id = "password" name = "password" required> 
+      </div>
+    </p>
+    <p>
+      <div>
+        <label for = "age">Age</label>
+        <input type = number min = 0 id = "age" name = "age" required>
+      </div>
+    </p>
+    <button>Submit</button>
+
+  </form>
+</body>
+
+</html>
